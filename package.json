@@ -1,0 +1,23 @@
+{
+  "name": "curso_ecmascript_historia",
+  "version": "1.0.0",
+  "description": "Primer curso de ECMAScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnzoSz/curso_ECMAScript_Historia_y_Vers_JS.git"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript"
+  ],
+  "author": "Enzo Soliz <enzosoliz95@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnzoSz/curso_ECMAScript_Historia_y_Vers_JS/issues"
+  },
+  "homepage": "https://github.com/EnzoSz/curso_ECMAScript_Historia_y_Vers_JS#readme"
+}
