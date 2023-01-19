@@ -1,0 +1,37 @@
+En palabras sencillas, una clase es un plantilla para crear objetos con sus mismos atributos y métodos(atributos se refieren en el código como las variables, y los métodos como las funciones; todo esto dentro del objeto).
+Como ejemplo podemos visualizar las Clases, como moldes para hacer galletas y sus objetos como las galletas ya listas para su consumo. Aunque debido a su molde (clase) todas las galletas (objeto), tendrían la misma forma cada galleta puede tener gomitas, otras crema, entre muchas otras, esto de les podría llamar los atributos de nuestros objetos (galletas).
+
+Una INSTANCIA de una CLASE: se refiere al objeto creado a partir de la clase.
+
+La sintaxis que utiliza la clase es la siguiente :
+
+//Se declara la clase:
+
+class NombredelaClase {
+    //atributos y metodos
+}
+
+//Se crea una instancia (objeto), de la clase:
+
+const NuevoObjeto = new NombredelaClase();
+El profe Oscar inicia desde los métodos(una función), para explicarnos como crear la instancia (objeto) de la clase User(molde), de la siguiente manera:
+
+class User {
+    //Metodos
+    greeting(){
+        return 'Hello';
+    }
+}; 
+El método greeting es una función, para métodos prácticos vamos a utilizar el nombre ‘Pepe’ en vez de llamar el objeto ‘gndx’.
+
+Se crea el objeto a partir de la clase User y se llama el método para mostrarla en consola de la siguiente manera:
+
+const pepe = new User();
+console.log(pepe.greeting()); // Hello
+Se declara el nuevo objeto ‘pepe’ a partir de la clase user, y se llama a la función greeting dentro de nuestro objeto ‘pepe’. En consola tenemos el ‘Hello’.
+
+Cuando se refiere a la herencia, en este caso de las clases, significa que la clase puede tener varios objetos de diferente nombre pero con los mismos atributos y métodos de la misma.
+
+La palabra reservada ‘new’, es un constructor, que sirve para crear objetos personalizados.
+
+El this, básicamente en palabras mas sencillas es decirle a tu código que cuando le escribes this, es en el contexto, llámese dentro de una función, dentro de un objeto, que de este mismo requieras. En las clases no es lo mismo traer la asignación de un atributo del padre (molde), que la asignación de atributo de un hijo (galletas), aunque tengan un mismo atributo.
