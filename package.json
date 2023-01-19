@@ -16,6 +16,7 @@
   ],
   "author": "Enzo Soliz <enzosoliz95@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/EnzoSz/curso_ECMAScript_Historia_y_Vers_JS/issues"
   },
