@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/EnzoSz/curso_ECMAScript_Historia_y_Vers_JS/issues"
   },
-  "homepage": "https://github.com/EnzoSz/curso_ECMAScript_Historia_y_Vers_JS#readme"
+  "homepage": "https://github.com/EnzoSz/curso_ECMAScript_Historia_y_Vers_JS#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
 }
